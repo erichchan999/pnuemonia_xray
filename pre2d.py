@@ -103,7 +103,7 @@ np.save('test_data.npy', test_data)
 np.save('test_labels.npy', test_labels)
 
 # Note: Load the data like this -
-# train_data = np.load('train_data.csv')
-# train_labels = np.load('train_labels.csv')
+# train_data = np.load('train_data.npy')
+# train_labels = np.load('train_labels.npy')
 
 print('train data and test data saved to npy files in cwd')
